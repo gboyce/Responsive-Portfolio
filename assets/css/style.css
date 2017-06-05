@@ -1,0 +1,259 @@
+* {
+	color: #777777;
+	margin: 0;
+}
+p {
+	font-family: 'Arial';
+	font-size: 11pt;
+}
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2 {
+   	display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h1, h2, h3, h4 {
+	font-family: 'Georgia';.
+}
+html, body {
+	height: 100%;
+	background-image: url("../images/ignasi_pattern_s.png");
+}
+nav {
+	margin: 24px 0 24px 0;
+	white-space: nowrap;
+}
+.mainContent {
+	margin: 0 auto;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+	width: 960px;
+	background-color: #ebebeb
+}
+section {
+	width: 65%;
+	padding: 2.1%;
+	background-color: #ffffff;
+	float: left;
+}
+form {
+	width: 65%;
+	padding: 2.1%;
+	background-color: #ffffff;
+	float: left;
+}
+aside {
+	width: 27%;
+	height: 13%;
+	padding: 2.1% 1.05% 2.1% 1.05%;
+	background-color: #ffffff;
+	float: right;
+}
+a {
+	text-decoration: none;
+	font-size: 13pt;
+}
+input, textarea {
+	width: 100%;
+	height: 25px;
+	margin: 10px 0 10px 0;
+	border-color: #cccccc;
+	border-style: solid;
+}
+.floatRight {
+	float: right;
+}
+
+.floatLeft {
+	float: left;
+}
+.container {
+	width: 960px;
+	background-color: #ffffff;
+	margin: 0 auto;
+}
+.borderGray {
+	color: #cccccc;
+	padding: 0;
+}
+.profilePic{
+	margin-right: 2.1%;
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+.firstHeader {
+	color: #4ca9a4;
+	margin: 0;
+	padding: 15px 0 20px 0;
+}
+.connectMe {
+	color: #4ca9a4;
+	margin: 15px 0 15px 0;
+	text-align: center;
+}
+.connectIcons {
+	width: 24%;
+	height: 46%;
+	margin: 3.0%;
+}
+.connectBar {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.topBar {
+	width: 100%;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+.footerNote {
+	font-size: 9pt;
+	text-align: center;
+	color: #ffffff;
+}
+header > h1 {
+	display: block;
+	background-color: #4ca9a4; 
+	padding: 20px;
+	color: #ffffff;
+	margin: 0 auto;
+}
+footer {
+	width: 100%;
+	clear: both;
+	position: relative;
+	top: 30px;
+	border-top-style: solid;
+	border-width: 5px;
+	border-color: #4ca9a4;
+	background-color: #666666;
+	padding: 25px 0 25px 0;
+}
+.wrapper {
+		min-height: 100%;
+		margin-bottom: -14px;
+}
+.footer, .push {
+		height: 14px;
+}
+.linkAnimate:hover {
+	text-decoration: underline;
+}
+.connectIcons:hover {
+	opacity: 0.5;
+}		
+.submitButton {
+	color: #ffffff;
+	height: 50px;
+	width: 120px;
+	background-color: #4ca9a4;
+	font-size: 1.17em;
+}
+.leftSide {
+	float: left;
+	margin: 0 1.5% 0 .75%;
+	width: 45%;
+	height: 100%;
+}
+.rightSide {
+	float: right;
+	margin: 0 .75% 0 1.5%;
+	width: 45%;
+	height: 100%;
+}
+.blueBox {
+	text-align: center;
+	background-color: #4ca9a4;
+	width: 100%;
+	padding: 5% 0 5% 0;
+	color: #ffffff;
+	position: relative;
+	bottom: 60px;			
+}
+img {
+	width: 100%;
+	height: 100%;
+}
+.portfolioRow {
+	width: 100%;
+	height: 26%;
+	margin-bottom: 4%;
+}
+
+@media screen and (max-width: 980px) {
+	.container {
+		width: 100%;
+	}
+	.mainContent {
+		width: 100%;
+	}
+	nav {
+		margin-right: 2%;
+	}
+}
+@media screen and (max-width: 768px) {	
+	.container {
+		width: 99%;
+	}
+	.profilePic {
+		width: 250px;
+		height: 187px;
+	}
+	section {
+		width: 95.5%;
+	}
+	form {
+		width: 95.5%;
+	}
+	aside {		
+		clear: both;
+		float: none;
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		top: 20px;
+		width: 350px;
+	}
+	.blueBox {
+		bottom: 50px;
+	}
+}
+@media screen and (max-width: 640px) {	
+	header { 
+		width: 100%;		
+	}
+	nav {
+		width: 100%;
+		text-align: center;
+		font-size: 15pt;
+		font-weight: bold;
+		margin: 10px 0 10px 0;
+	}
+	img.profilePic {
+		display: block;
+		width: 62%;
+		height: 30%;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	.topbar {
+		position: static;
+	}
+	.blueBox {
+		bottom: 40px;
+	}
+}
